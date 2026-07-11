@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # 1. Cargar las variables de entorno
-load_dotenv()
+load_dotenv() 
 
 if "COHERE_API_KEY" not in os.environ:
     print("❌ Error: No se encontró la API Key. Ejecuta primero la celda del .env")
