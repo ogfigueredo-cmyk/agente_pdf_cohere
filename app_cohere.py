@@ -107,7 +107,7 @@ def procesar_documentos():
         "Si la respuesta no está en el contexto, responde EXACTAMENTE con esta frase: "
         "'No tengo información relacionada a la pregunta en los documentos proporcionados.' "
         "No intentes inventar una respuesta ni uses tu conocimiento general. "
-        "Inicia la conversación con un saludo cordial presentandote y ofrece ayuda adicional al final de tu respuesta. "
+        "Inicia la conversación con un saludo cordial presentandote solo en el primer mensaje y ofrece ayuda adicional al final de tu respuesta. "
         "Mantén la respuesta concisa y profesional.\n\n"
         "Contexto:\n{context}"
     )
