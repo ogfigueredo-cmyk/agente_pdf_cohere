@@ -72,10 +72,55 @@ st.markdown("""
     .stButton > button:hover {
         background-color: #1a5fa0 !important;
     }
+    
+    /* Cuadro de información */
+    div[data-testid="stMarkdownContainer"] > p {
+        color: #000000 !important;
+    }
+    
+    div.stAlert {
+        background-color: #e8f0f8 !important;
+        color: #000000 !important;
+        border-left: 4px solid #1f77b4 !important;
+    }
+    
+    div.stAlert p {
+        color: #000000 !important;
+    }
+    
+    div.stAlert strong {
+        color: #1f3a5f !important;
+    }
+    
+    /* Texto dentro del cuadro de info */
+    [data-testid="stMarkdownContainer"] {
+        background-color: white !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
 st.title("🤖 Chatbot Experto en Documentos de Politicas de DIGITAL BANK S.A.")
+
+# Cuadro informativo sobre las capacidades del bot
+st.info("""
+📋 **Sobre este Chatbot**
+
+Este asistente inteligente está entrenado para responder preguntas específicamente sobre las políticas de DIGITAL BANK S.A.
+
+**✅ Puede responder sobre:**
+- Política de privacidad y protección de datos
+- Términos y condiciones de uso
+- Preguntas frecuentes sobre transacciones y límites
+- Política de seguridad y prevención de fraudes
+- Tarifas y comisiones del servicio
+
+**❌ No puede responder sobre:**
+- Información fuera de los documentos cargados
+- Preguntas generales no relacionadas con las políticas
+- Temas que no estén documentados
+
+💡 **Tip:** Haz preguntas claras y específicas para obtener mejores resultados.
+""")
 
 # Cargar variables de entorno
 load_dotenv()
