@@ -46,6 +46,50 @@ Si no se encuentra respuesta, el modelo responde: "No tengo información relacio
 
 
 
+Interfaz Web y Tecnologías
+
+
+
+La aplicación cuenta con una interfaz web moderna y profesional construida con las siguientes tecnologías:
+
+
+
+**Streamlit**: Framework de Python que permite crear aplicaciones web interactivas sin necesidad de conocimientos en frontend. Proporciona componentes preconstruidos como chat, inputs, botones y más.
+
+
+
+**HTML/CSS Personalizado**: Se utiliza CSS personalizado inyectado mediante Streamlit para:
+
+- Fondo profesional con gradiente azul marino
+- Diseño responsivo y moderno
+- Mensajes de chat con estilos diferenciados
+- Efectos visuales como sombras y bordes redondeados
+- Tema corporativo consistente
+
+
+
+**Características de la Interfaz:**
+
+- ✅ Chat interactivo con historial persistente en sesión
+- ✅ Soporte para modo claro y oscuro
+- ✅ Barra lateral expandible para mejor organización
+- ✅ Layout ampliado (wide) para mejor visualización
+- ✅ Mensajes del asistente y usuario diferenciados visualmente
+- ✅ Iconos emojis para mejor UX
+- ✅ Input de texto intuitivo para las preguntas
+
+
+
+**Ventajas de Streamlit:**
+
+- Desarrollo rápido sin HTML/JavaScript puro
+- Hot reloading automático durante desarrollo
+- Gestión de estado de sesión integrada
+- Componentes accesibles y responsivos
+- Comunidad activa y documentación extensa
+
+
+
 Ejemplos de uso
 
 
