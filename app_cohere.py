@@ -128,7 +128,7 @@ load_dotenv()
 # Función con caché para no recargar documentos en cada mensaje
 @st.cache_resource
 def procesar_documentos():
-    ruta = r"C:\Users\User\Documents\agente_pdf_cohere\documentos"
+    ruta = r"documentos"
     if not os.path.exists(ruta):
         return None, None
     
