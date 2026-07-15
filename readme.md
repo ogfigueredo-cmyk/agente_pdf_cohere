@@ -1,5 +1,5 @@
 Agente RAG: Chatbot Inteligente con Cohere y LangChain
-
+## url para acceder: http://137.131.142.214:8501 ##
 
 
 Este proyecto implementa una solución de Retrieval-Augmented Generation (RAG), diseñada para interactuar con documentos PDF locales. El agente está optimizado para responder consultas basándose exclusivamente en la información contenida en dichos documentos, evitando alucinaciones o respuestas fuera de contexto mediante un prompt estricto y el uso de un LLM de alto rendimiento (Cohere).
